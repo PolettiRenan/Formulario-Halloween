@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(backimage/Halloween.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #000;
+    height: 50px;
+}
+
+a {
+    color: tomato;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+
+.formulario {
+    width: 26vw;
+    background:rgba(255, 255, 255, 0.602); 
+    height:60vh;
+    margin: 5% 37%;
+    border-radius: 16px;
+}
+
+.s {
+    padding: 20% 30%;
+}
+
+.escolhas {
+    padding: 0% 30%;
+}
