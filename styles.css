@@ -6,9 +6,9 @@
 }
 
 body {
-    background-image: url(backimage/Halloween.jpg);
+    background-image: url(backimage/R.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;   
 }
 
 header {
@@ -16,8 +16,27 @@ header {
     height: 50px;
 }
 
+h1 {
+    color: tomato;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 15px;
+}
+
 a {
     color: tomato;
+}
+
+h2 {
+    padding: 0 0 0 125px;
+    line-height: 150px;
+
+    letter-spacing: 1px;
+}
+
+footer {
+    text-align: center;
+    color: white;
 }
 
 .nav-menu {
@@ -34,12 +53,29 @@ a {
     height:60vh;
     margin: 5% 37%;
     border-radius: 16px;
+
 }
 
-.s {
-    padding: 20% 30%;
+.elementos-formulario {
+    padding: 5% 30% 0 30%;
 }
 
 .escolhas {
     padding: 0% 30%;
+    font-family: cursive;
+}
+
+#nome {
+    margin-bottom: 16px;
+    font-family: cursive;
+}
+
+#email {
+    margin-bottom: 16px;
+    font-family: cursive;
+}
+
+#apelido {
+    margin-bottom: 16px;
+    font-family: cursive;
 }
